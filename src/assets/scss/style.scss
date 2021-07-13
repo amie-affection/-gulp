@@ -1,14 +1,12 @@
 @import './vars';
 @import './vendor/reset.scss';
+@import './fonts.scss';
+@import './blocks/header.scss';
 
 html {
-  font-size: 62.5%;
+  font-size: 10px;
+  scroll-behavior: smooth;
 }
 body {
-  background-color: $background;
-  font-size: 21px;
-  color: $primary;
+  overflow-x: hidden;
 }
-
-@import './blocks/header.scss';
-@import './blocks/post.scss';
